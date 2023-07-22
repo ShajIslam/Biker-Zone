@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biker-Zone</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!--tailwind styles-->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'primary-color': '#E76F51',
+            'bike-slider-bg': '#E76F51',
+            
+          }
+        }
+      }
+    }
+  </script>
+<!--Google Fonts Poppins-->
+<style>
+    .font-poppins{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+
+
+</head>
+<body>
+    <header class="md:container md:mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+  <div class="flex-1">
+    <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+        </label>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>Shop</a></li>
+          <li><a>News</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+    <a class="btn btn-ghost normal-case text-xl font-poppins">Biker Zone</a>
+  </div>
+  <div class="navbar-center hidden flex lg:flex font-poppins">
+    <ul class="menu menu-horizontal px-1">
+      <li><a>Home</a></li>
+        <li><a>Shop</a></li>
+      <li><a>News</a></li>
+      <li><a>Contact</a></li>
+    </ul>
+  </div>
+  <div class="">
+    <a class="btn btn-error text-white bg-[primary-color]">Login</a>
+  </div>
+</div>
+        </nav>
+        <div class="flex">
+            <div>
+                <h2 class="text-6xl text-bold text font-bold">
+                    Ride-on R15 V4 <br> with Smile
+                </h2>
+                <p>Amet minim mollit non deserunt ullamco 
+                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <button class="btn bg-primary-color text-white">PURCHASE</button>
+            </div>
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
+    
+</body>
+</html>
